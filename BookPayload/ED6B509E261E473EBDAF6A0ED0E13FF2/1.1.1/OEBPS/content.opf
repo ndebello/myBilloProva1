@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<!-- METADATA -->
+	<meta name="generator" content="PubCoder for Mac OS X"/>
+	<meta property="rendition:layout">pre-paginated</meta>	
+	<meta property="rendition:orientation">landscape</meta>
+	<meta property="rendition:spread">none</meta>
+	<meta property="dcterms:modified">2017-04-06T08:39:23Z</meta>
+	<meta property="media:active-class">-epub-media-overlay-active</meta>
+	<meta property="media:duration">00:00:00</meta>
+	
+	<dc:title>Billo e il FIlo</dc:title>
+	<dc:creator>Silvia So</dc:creator>
+	<dc:description>Un bambino molto in gamba che usa la fantasia per sfuggire alla solitudine. Un filo come straordinario, avventuroso compagno di giochi.</dc:description>
+	<dc:publisher>WARE'S ME srl</dc:publisher>
+	<dc:date>2017-04-06</dc:date>
+	<dc:rights>©2014 WARE'S ME srl</dc:rights>
+	<dc:language>it</dc:language>
+	<dc:identifier id="BookID">218F413408514F1788F3D6CE3628F8DF</dc:identifier>
+</metadata>	
+<!-- MANIFEST -->
+	<manifest>
+<!-- GENERAL ASSETS  -->
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="cssContent" href="css/general.styles.css" media-type="text/css"/>
+		<item id="cover-image" properties="cover-image" href="assets/images/cover.jpg" media-type="image/jpeg"/>
+		
+		<item id="SCNavigationLeft-image" href="images/scnavigation-prev-btn.png" media-type="image/png"/>
+		<item id="SCNavigationLeft-image-active" href="images/scnavigation-prev-btn-active.png" media-type="image/png"/>
+		<item id="SCNavigationLeft-image-hover" href="images/scnavigation-prev-btn-hover.png" media-type="image/png"/>
+		<item id="SCNavigationRight-image" href="images/scnavigation-next-btn.png" media-type="image/png"/>
+		<item id="SCNavigationRight-image-active" href="images/scnavigation-next-btn-active.png" media-type="image/png"/>
+		<item id="SCNavigationRight-image-hover" href="images/scnavigation-next-btn-hover.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-fullscreen-close-image" href="images/scphotogallery-fullscreen-close.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-fullscreen-open-image" href="images/scphotogallery-fullscreen-open.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-index-close-image" href="images/scphotogallery-index-close.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-index-open-image" href="images/scphotogallery-index-open.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-next-image" href="images/scphotogallery-next.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-prev-image" href="images/scphotogallery-prev.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-thumb-next-image" href="images/scphotogallery-thumb-next.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-thumb-prev-image" href="images/scphotogallery-thumb-prev.png" media-type="image/png"/>
+		
+		<item id="SCQuiz-check-off" href="images/scquiz-check-off.png" media-type="image/png"/>
+		<item id="SCQuiz-check-on" href="images/scquiz-check-on.png" media-type="image/png"/>
+		<item id="SCQuiz-check-right" href="images/scquiz-check-right.png" media-type="image/png"/>
+		<item id="SCQuiz-check-wrong" href="images/scquiz-check-wrong.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-off" href="images/scquiz-radio-off.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-on" href="images/scquiz-radio-on.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-right" href="images/scquiz-radio-right.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-wrong" href="images/scquiz-radio-wrong.png" media-type="image/png"/>
+		<item id="SCQuiz-next" href="images/scquiz-next.png" media-type="image/png"/>
+		<item id="SCQuiz-prev" href="images/scquiz-prev.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-missed" href="images/scquiz-radio-missed.png" media-type="image/png"/>
+		<item id="SCQuiz-check-missed" href="images/scquiz-check-missed.png" media-type="image/png"/>
+		<item id="SCDrawer-trash" href="images/scdrawer-trash.png" media-type="image/png"/>
+        <item id="SCDrawer-transparent" href="images/scdrawer-transparent_color.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-drawer" href="images/scdrawer-draw_tool_icon.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-eraser" href="images/scdrawer-erase_tool_icon.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-filler" href="images/scdrawer-fill_tool_icon.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-crayon" href="images/scdrawer-crayon_tool_icon.png" media-type="image/png"/>
+		
+<!-- FONTS -->		
+		
+<item id="font1" href="fonts/Denne-Soymilk.ttf" media-type="application/x-font-truetype"/>
+<item id="font2" href="fonts/Desereted.ttf" media-type="application/x-font-truetype"/>
+<!-- JAVASCRIPT -->
+				<item id="jquery" href="js/jquery.js" media-type="text/javascript" />
+		<item id="jquery_jgestures" href="js/jquery.jgestures.js" media-type="text/javascript" />
+        <item id="spritespin_api" href="js/spritespin.api.js" media-type="text/javascript" />
+        <item id="spritespin" href="js/spritespin.js" media-type="text/javascript" />
+		<item id="spritespin_mod_360" href="js/spritespin.mod-360.js" media-type="text/javascript" />
+		<item id="jquery_ui" href="js/jquery.ui.js" media-type="text/javascript" />
+		<item id="jquery_touchpunch" href="js/jquery.touchpunch.js" media-type="text/javascript" />
+		<item id="jquery_scrollTo" href="js/jquery.scrollTo-min.js" media-type="text/javascript" />
+		<item id="jquery_easie" href="js/jquery.easie-min.js" media-type="text/javascript" />
+		<item id="jquery_move" href='js/jquery.move.js' media-type="text/javascript" />
+		<item id="jquery_SCswipe" href='js/jquery.SCswipe.js' media-type="text/javascript" />
+		<item id="jquery-css-transform" href='js/jquery-css-transform.js' media-type="text/javascript" />
+		<item id="jquery-animate-css-rotate-scale" href='js/jquery-animate-css-rotate-scale.js' media-type="text/javascript" />
+		<item id="jquery-animate-shadow" href='js/jquery.animate-shadow-min.js' media-type="text/javascript" />
+        <item id="jquery_panzoom_js" href='js/jquery.panzoom.min.js' media-type="text/javascript" />
+		<item id="remodal_js" href='js/remodal.js' media-type="text/javascript" />
+		<item id="pubcoder_js" href='js/pubcoder.js' media-type="text/javascript" />
+		<item id="pubcoder_general_functions" href='js/general.functions.js' media-type="text/javascript" />
+		<item id="shake_js" href='js/shake.js' media-type="text/javascript" />
+		<item id="unmask_js" href='js/unmask.js' media-type="text/javascript" />
+		<item id="swiper_js" href='js/idangerous.swiper-2.3.js' media-type="text/javascript" />
+		<item id="photogallery_js" href='js/photogallery.js' media-type="text/javascript" />
+		<item id="quiz_multi_js" href='js/quiz-multi.js' media-type="text/javascript" />
+		<item id="drawer_js" href='js/drawer.js' media-type="text/javascript" />
+		<item id="drawer_flood_fill_js" href='js/flood_fill.js' media-type="text/javascript" />
+        
+        <item id="scw_widgets_js" href='js/scw_widgets.js' media-type="text/javascript" />
+        <item id="scw_panzoom_js" href='js/scw_panzoom.js' media-type="text/javascript" />
+        <item id="scw_memory_game_js" href='js/scw_memory_game.js' media-type="text/javascript" />
+        
+		
+<!-- SHARED ASSETS -->
+		
+<!-- PAGES ASSETS -->
+		<!--page 1-->
+<item id="js1" href="assets/1/actions.js" media-type="text/javascript" />
+<item id="css1" href="assets/1/styles.css" media-type="text/css"/>
+<item id="page1" pageid="6" href="assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj70_sprite1" href="assets/images/obj70_sprite1.png" media-type="image/png" />
+<item id="obj70_sprite2" href="assets/images/obj70_sprite2.png" media-type="image/png" />
+<item id="obj70_sprite3" href="assets/images/obj70_sprite3.png" media-type="image/png" />
+<item id="obj70_sprite4" href="assets/images/obj70_sprite4.png" media-type="image/png" />
+<item id="obj70_sprite5" href="assets/images/obj70_sprite5.png" media-type="image/png" />
+<item id="obj70_sprite6" href="assets/images/obj70_sprite6.png" media-type="image/png" />
+<item id="audio3" href="assets/audio/billo1-4.mp3" media-type="audio/mpeg" />
+<item id="thumbnail1" href="assets/1/thumbnail.jpg" media-type="image/jpeg" />
+<item id="loading1" href="assets/1/loading.jpg" media-type="image/jpeg" />
+
+<!--page 1: end-->
+	</manifest>
+	
+	<spine page-progression-direction="ltr">
+		<itemref idref="page1" />
+	</spine>
+	
+	<guide> 
+      <reference type="cover" title="Cover" href="assets/1/page.xhtml"/>
+      <reference type="text" title="Story start" href="assets/1/page.xhtml"/>
+  </guide>	
+</package>

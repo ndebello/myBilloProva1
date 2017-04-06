@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Billo e il FIlo</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.styles.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.actual.min.js"></script>
+    <script type="text/javascript" src="js/idangerous.swiper-2.3.js"></script>
+    <script type="text/javascript" src="js/sizeof.min.js"></script>
+    <script type="text/javascript" src="js/SChtml.min.js"></script>
+    <script type="text/javascript">
+    SCGeneral.init();
+
+  /*
+  * Workaround to make it works with chrome on windows 10
+  */
+  /*
+   *
+   *   Init Touch Events
+   *
+   */
+  if ((/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()))) { 
+    window.touchDownEvent = "touchstart"; 
+    window.touchUpEvent = "touchend"; 
+    window.touchMoveEvent = "touchmove";
+    if ((/android/i.test(navigator.userAgent.toLowerCase()))) {
+      window.pinchopen = "pinchout";
+      window.pinchclose = "pinchin";
+    } else {
+      window.pinchopen = "pinchopen";
+      window.pinchclose = "pinchclose";
+    }
+  } else {
+    window.touchDownEvent = "mousedown";
+    window.touchUpEvent = "mouseup";
+    window.touchMoveEvent = "mousemove";
+    window.pinchopen = "dblclick";
+    window.pinchclose = "dblclick";
+  }
+  SCGeneral.touchDownEvent = window.touchDownEvent;
+    
+    var touchstart;  
+      if (SCGeneral.isTouch() && window.touchDownEvent !== "mousedown")
+        touchstart = "touchstart";
+      else
+        touchstart = "mousedown";
+  /*
+  * End workaround
+  */
+    
+    $(document).ready(function() {
+        SCHtmlDataController.initInfo();
+        
+        $(document).on('initInfoCompleted', function() {
+            SCHtmlDataController.initData();
+            
+            $(document).on('initDataCompleted', function(e, eventInfo) {
+                window.SCPackageData = SCHtmlController.getCurrentData(); 
+                SCHtmlController.init();
+            });
+
+        });
+
+    });
+    </script>
+    </head>
+    <body>
+           <div id="SCcontainer">
+              <!--Navigation -->
+              <nav class="navbar navbar-default navbar-static-top" id="SCNavbar">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                      <ul class="nav navbar-nav" id="SCNavCenter">
+                        <li><a class="navbar-brand" id="SCNavTitle" href="#"></a></li>
+                      </ul>
+                       <!--<a class="navbar-brand" id="SCNavTitle" href="#"></a>-->
+                      </div>
+                      <div id="navbar">
+                        <div id="SCcontainer-nav">
+                       <!--   <ul class="nav navbar-nav" id="left-navbar">-->
+                         <!--button Buy Now-->
+                          <!--</ul>-->
+                          <ul class="nav navbar-nav navbar-complete">
+                         <!--   <li id="SCReadAloudButtonNav"><a href="#" id="SCReadAloudButton"><img src="images/icon_readaloud.png" /></a></li>-->
+                            <li id="SCInfoNav"><a href="#" data-toggle="modal" data-target="#SCInfo"><img src="images/icon_info.png" /></a></li>
+                          </ul>
+                          </div><!--/.SC-container-nav -->
+                      </div><!--/.nav-collapse --> 
+                    </div><!--/.container-fluid -->
+              </nav>
+<!--End Nav-->
+<!-- Modal info -->
+<!-- Modal -->
+              <div class="modal fade" id="SCInfo" tabindex="-1" role="dialog" aria-labelledby="Info" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="SCInfoLabel">Info</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div id="SCInfoCover"></div>
+                    <div id="SCInfoTitle"></div>
+                    <div id="SCInfoAuthor"></div>
+                    <div id="SCInfoCredits"></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End modal info -->
+            <div class="swiper-container">
+                <div id="SCPageViewerLeft">
+                  
+                </div>
+                <div id="SCPageViewerCenter">
+
+                </div> 
+                <div id="SCPageViewerRight">
+                  
+                </div>
+                <div class="SCLoader"><div class="Outer"><div class="Middle"><div class="clear-loading loading-effect-1"><span></span><span></span><span></span></div></div></div></div>
+            </div>
+    <!-- navigation menu start -->
+           
+           <div id="SCNavigationToc">
+              <div class="paginationContainer">
+                <div class="overflowContainer">
+                  <div class="SCpagination">
+                    <ul>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <div id="SCNavigationArrows">
+              <!-- <div id="SCNavigationLeftContainer"> -->
+                <div id="SCNavigationLeft"></div>
+              <!-- </div> -->
+              <!-- <div id="SCNavigationRightContainer"> -->
+                <div id="SCNavigationRight"></div>
+              <!-- </div> -->
+            </div>
+            <!-- navigation menu end -->  
+         </div>
+    </body>
+</html>

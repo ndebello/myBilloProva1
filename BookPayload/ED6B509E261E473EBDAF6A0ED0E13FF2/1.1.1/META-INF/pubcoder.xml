@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pubcoder>
+	<integratedUI>true</integratedUI>
+	<onTouchSystemUI>true</onTouchSystemUI>
+	<enableSwipe>true</enableSwipe>
+	<numPagesLandscape>1</numPagesLandscape>
+	<orientation>landscape</orientation>
+	<thumbnailHeight>220</thumbnailHeight>
+	<thumbnailWidth>293</thumbnailWidth>
+	<viewportHeight>768</viewportHeight>
+	<viewportWidth>1024</viewportWidth>
+	<showNavigationArrows>true</showNavigationArrows>
+	<sharingOnSocialNetworks>true</sharingOnSocialNetworks>
+	<embedCode>true</embedCode>
+	<buttonBuyLabel>Buy Now</buttonBuyLabel>
+	<downloadSampleUrl></downloadSampleUrl>
+	<storeLinkAppleAppStore></storeLinkAppleAppStore>
+	<storeLinkAppleiBooks></storeLinkAppleiBooks>
+	<storeLinkGooglePlayBooks></storeLinkGooglePlayBooks>
+	<storeLinkGooglePlay></storeLinkGooglePlay>
+	<storeLinkAmazon></storeLinkAmazon>
+	<storeLinkKobo></storeLinkKobo>
+	<storeLinkBarnesAndNoble></storeLinkBarnesAndNoble>
+	<hasSoundTrack>false
+false</hasSoundTrack>
+</pubcoder>
